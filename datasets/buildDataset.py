@@ -13,6 +13,7 @@ df_mask = pd.read_csv('mask-use-by-county.csv')
 df_heart = pd.read_csv('heart disease.csv')
 df_poverty = pd.read_csv('df_poverty_combined.csv')
 df_unemp = pd.read_csv('df_unemp_combined.csv')
+df_pop = pd.read_csv('df_population_cleaned.csv')
 
 ##rename the columsn as needed
 df_mask = df_mask.rename(columns={'NEVER':'Mask_Never','RARELY':'Mask_Rarely','SOMETIMES':'Mask_Sometimes','FREQUENTLY':'Mask_Freqeuntly',
@@ -92,8 +93,9 @@ df_new = pd.merge(df_new,df_stroke_add,left_on='fips',right_on='fipID')
 df_new = pd.merge(df_new,df_cor_add,left_on='fips',right_on='fipID')
 df_new = pd.merge(df_new,df_poverty,left_on='fips',right_on='fips2')
 df_new = pd.merge(df_new,df_unemp,on='fips')
+df_new = pd.merge(df_new,df_pop,on='fips')
 df_new = df_new.drop(columns=['State Name', 'FIPS Code', 'County Name','COUNTYFP','fipID_x','fipID_y','county','county2','ruc_code2','fips2'])
-colnames = ['fips','State','County','Percent Uninsured','Mask_Never', 'Mask_Rarely', 'Mask_Sometimes','Mask_Freqeuntly', 'Mask_Always','total_est_pct3','Unemployment_rate','Median_Income','Total_Confirmed','Total_Stroke','Total_Coronary_Heart']
+colnames = ['fips','State','County','population','Percent Uninsured','Mask_Never', 'Mask_Rarely', 'Mask_Sometimes','Mask_Freqeuntly', 'Mask_Always','total_est_pct3','Unemployment_rate','Median_Income','Total_Confirmed','Total_Stroke','Total_Coronary_Heart']
 df_new = df_new.reindex(columns=colnames)
 df_new = df_new.rename(columns={'total_est_pct3':'poverty_population'})
 df_new.to_csv('dataset_covid_4th.csv',index=False)
