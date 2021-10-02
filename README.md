@@ -7,7 +7,7 @@ This tool aims to support policymakers in implementing health- and socioeconomic
 ### Why is health insurance important?
 This is your Text paragraph. It’s a great place to add a description of your business, your site or what you do. Use this space to add information for your users, write about your philosophy or your journey and define your distinguishing qualities. Consider adding an image for extra engagement.
 
-![SSPC ITERATION1](https://raw.githubusercontent.com/DheyaM/CDC2021/main/docs/closer_look_into_the_data.png?token=ABUQM2O5D55TIBQC6GCWLU3BLCKL6)
+![SSPC ITERATION1](https://github.com/DheyaM/CDC2021/blob/main/docs/closer_look_into_the_data.png)
 
 ## Exploring Data with Dashboard
 ### Tableau dashboard with disease, insurance, and socioeconomic data
@@ -15,7 +15,9 @@ Compare COVID-19, heart stroke, coronary heart cases with other states and count
 
 [Go to Dashboard Page](https://jamesjonginbae.wixsite.com/cdc2021healthcare/interactive-dashboard)
 
-![SSPC ITERATION2](https://raw.githubusercontent.com/DheyaM/CDC2021/main/docs/dashboard.png?token=ABUQM2IJTE5PSPAVR7KPOI3BLCKE6)
+![SSPC ITERATION2](https://github.com/DheyaM/CDC2021/blob/main/docs/dashboard.png)
+
+## Predicting Disease Case Counts with AI
 
 
 
