@@ -1,0 +1,27 @@
+<html>
+  <title> Disease Prediction </title>
+  <form method="POST">
+    <label> Disease </label> (Choose one: COVID/Stroke/Coronary):  <br>
+    <input type="text" name="disease" value = {{user_text | safe}}>  <br>
+    <label> State </label> (Enter Full Name ex: Alabama):  <br>
+	<input type="text" name="state" value = {{user_text | safe}}>  <br>
+	<label> County </label> (Enter Full Name ex: Autauga):  <br>
+	<input type="text" name="county" value = {{user_text | safe}}>  <br>
+	<label> Change in Percent Uninsured </label> (Enter without % (ex: 10 -> 10% more in percent uninsured, -10 -> 10% less in percent uninsured )): <br>
+    <input type="number" name="uninsured" value = {{user_text | safe}}>  <br>
+    <label> Mask_Never </label> (Enter without % (% of people who never uses mask)): <br>
+	<input type="number" name="mask_never" value = {{user_text | safe}}>  <br>
+	<label> Mask_Always </label> (Enter without % (%of people who always uses mask): <br>
+    <input type="number" name="mask_always" value = {{user_text | safe}}>  <br>
+    <label> Poverty Population </label> (Enter without %):  <br>
+	<input type="number" name="poverty" value = {{user_text | safe}}>  <br>
+	<label> Unemployment Rate </label> (Enter without %):  <br>
+    <input type="number" name="unemployment" value = {{user_text | safe}}>  <br>
+    <label> Median Income </label> (Enter without %): <br>
+	<input type="number" name="income" value = {{user_text | safe}}>  <br>
+	<label> Predicted Case Count: </label>
+    <label> {{output | safe}} </label> <br>
+    <button type="submit" name="submit">Submit</button>
+  </form>
+
+</html>
