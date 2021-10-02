@@ -1,4 +1,5 @@
 # Development of machine learning model to predict pandemic and heart disease count
+Link to our website: https://jamesjonginbae.wixsite.com/cdc2021healthcare
 
 ## Predictive Tool on Disease Case Count
 This tool aims to support policymakers in implementing health- and socioeconomic-related policies to reduce COVID-19, heart stroke, and coronary heart cases in a selected county.How many lives can we save by improving health insurance and socioeconomic policies in our area? Our tool lets you explore on the latest data on the three diseases, compare with the state average, and predict the case counts with new policies in place
