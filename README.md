@@ -7,11 +7,13 @@ This tool aims to support policymakers in implementing health- and socioeconomic
 ### Why is health insurance important?
 This is your Text paragraph. It’s a great place to add a description of your business, your site or what you do. Use this space to add information for your users, write about your philosophy or your journey and define your distinguishing qualities. Consider adding an image for extra engagement.
 
-**Healthcare**
-- https://aspe.hhs.gov/reports/state-county-local-estimates-uninsured-population-prevalence-key-demographic-features
+![SSPC ITERATION1](https://raw.githubusercontent.com/DheyaM/CDC2021/main/docs/closer_look_into_the_data.png?token=ABUQM2IRTQZZFNB46HXCY6DBLCJC2)
 
-**Finance**
-- https://www.sec.gov/dera/data/financial-statement-data-sets.html
+## Exploring Data with Dashboard
+### Tableau dashboard with disease, insurance, and socioeconomic data
+Compare COVID-19, heart stroke, coronary heart cases with other states and counties. Each region in the dashboard is presented with disease data and health / socioeconomic factors.
+
+[Go to Dashboard Page](https://jamesjonginbae.wixsite.com/cdc2021healthcare/interactive-dashboard)
 
 **Social Science**
 - https://data-wake.opendata.arcgis.com/datasets/ral::cdcs-social-vulnerability-index-svi-2014-overall-svi-census-tract-level-wake-county/about
