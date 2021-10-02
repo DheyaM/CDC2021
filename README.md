@@ -1,16 +1,11 @@
-# 2021 CDC Project Submission Template
+# Tackling Pandemic and Heart Disease with Predictive Tool
 
-Welcome to the datathon/hackathon portion of the Carolina Data Challenge!
+## Predictive Tool on Disease Case Count
+This tool aims to support policymakers in implementing health- and socioeconomic-related policies to reduce COVID-19, heart stroke, and coronary heart cases in a selected county.How many lives can we save by improving health insurance and socioeconomic policies in our area? Our tool lets you explore on the latest data on the three diseases, compare with the state average, and predict the case counts with new policies in place
 
-This repository will serve as a starting platform for your team's project. You can create your own repository using this as a template. Click [here](https://github.com/Carolina-Data-Challenge/project-template-21/generate) or the "Use this Template" button in the top right corner to generate a repository using this one as a template.
-
----
-
-## Folders in this template.
-The default repository directory is as follows:
-
-### /datasets
-This is where you can find more information on your datasets. You may put your datasets in this folder but please keep in mind git/Github's file size limitations. Links to this year's datasets are as follows:
+## Closer Look into Data
+### Why is health insurance important?
+This is your Text paragraph. It’s a great place to add a description of your business, your site or what you do. Use this space to add information for your users, write about your philosophy or your journey and define your distinguishing qualities. Consider adding an image for extra engagement.
 
 **Healthcare**
 - https://aspe.hhs.gov/reports/state-county-local-estimates-uninsured-population-prevalence-key-demographic-features
