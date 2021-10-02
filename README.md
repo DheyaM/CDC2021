@@ -14,6 +14,7 @@ This is your Text paragraph. It’s a great place to add a description of your b
 Compare COVID-19, heart stroke, coronary heart cases with other states and counties. Each region in the dashboard is presented with disease data and health / socioeconomic factors.
 
 [Go to Dashboard Page](https://jamesjonginbae.wixsite.com/cdc2021healthcare/interactive-dashboard)
+![SSPC ITERATION2](https://raw.githubusercontent.com/DheyaM/CDC2021/main/docs/dashboard.png?token=ABUQM2IJTE5PSPAVR7KPOI3BLCKE6)
 
 **Social Science**
 - https://data-wake.opendata.arcgis.com/datasets/ral::cdcs-social-vulnerability-index-svi-2014-overall-svi-census-tract-level-wake-county/about
