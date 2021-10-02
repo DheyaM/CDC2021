@@ -5,7 +5,9 @@ This tool aims to support policymakers in implementing health- and socioeconomic
 
 ## [Exploratory Data Analysis](https://jamesjonginbae.wixsite.com/cdc2021healthcare/closer-look-into-data)
 ### Why is health insurance important?
-This is your Text paragraph. It’s a great place to add a description of your business, your site or what you do. Use this space to add information for your users, write about your philosophy or your journey and define your distinguishing qualities. Consider adding an image for extra engagement.
+Our analysis results showed that the areas with lower income and higher unemployment rates are more likely to suffer with higher uninsured rate. Higher uninsured rates were correlated with higher counts of each disease. If you'd like to read more, click below.
+
+[Read More](https://jamesjonginbae.wixsite.com/cdc2021healthcare/closer-look-into-data)
 
 ![SSPC ITERATION1](https://github.com/DheyaM/CDC2021/blob/main/docs/closer_look_into_the_data.png)
 
